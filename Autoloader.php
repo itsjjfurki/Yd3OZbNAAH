@@ -2,6 +2,9 @@
 
 class Autoloader
 {
+    /**
+     * @return void
+     */
 	public static function register()
 	{
 		spl_autoload_register(function ($class) {
